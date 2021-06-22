@@ -1,0 +1,148 @@
+/*full screen size.*/
+body {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-family: 'Exo', sans-serif;
+    background: #f8f8f8;
+}
+body p,
+h4 {
+    color: #697070;
+}
+header,
+.page-container,
+.cards-container,
+.card,
+.card img{
+    height: auto;
+}
+header {
+    width: 100%;
+    box-shadow: 0 10px 10px -2px #bfbfbf;
+    background: #ffffff;
+}
+img {
+    height: 60px;
+    width: auto;
+    padding: 20px;
+}
+h1,
+h2 {
+    width: 100%;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 20px 0 50px 0;
+    color: #2c3e50;
+}
+form {
+    width: 600px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+form input,
+form label {
+    width: 100%;
+    height: 40px;
+}
+form input {
+    margin: 10px 0 30px 0;
+}
+form input {
+    border-radius: 5px;
+    border: 1px solid #b3b3b3;
+}
+form input[type="submit"] {
+    background: #6eb92b;
+    color: #ffffff;
+    border: none;
+    margin-top: 0;
+    width: 140px;
+    font-size: 20px;
+    font-weight: 200;
+}
+footer {
+    border-top: 2px solid #b3b3b3;
+    height: auto;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+.page-container,
+footer {
+    width: 1200px;
+}
+section {
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.card {
+    width: 380px;
+    margin-bottom: 25px;
+    background: white;
+    box-shadow: 0 10px 20px -2px #bfbfbf;
+}
+.card img {
+    margin: 5px;
+    width: calc(100% - 10px);
+    padding: 0;
+}
+.card-info {
+    padding: 20px;
+}
+.card-info h3 {
+    margin: 0 0 10px 0;
+}
+.card-info h3 a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    color: #6eb92b;
+}
+.card-info p {
+    border-bottom: 2px solid #b3b3b3;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 200;
+}
+.stars-and-comments {
+    width: 100%;
+    height: auto;
+    margin: 20px 0 15px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.stars-container {
+    width: 130px;
+}
+.stars-container svg,
+.comments svg {
+    width: 15px;
+    height: 15px;
+    color: #6eb92b;
+}
+.stars-container p,
+.comments p{
+    border-bottom: unset;
+    display: inline;
+    margin-right: 15px;
+}
+.comments p {
+    margin: 0 0 15px 0;
+}
+.second-section {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 20px;
+}
+.second-section h2 {
+    margin-bottom: 0;
+}
